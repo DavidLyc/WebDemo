@@ -1,0 +1,24 @@
+td {
+    white-space: nowrap;
+}
+
+input {
+    background-color: lightblue;
+    color: red;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: black;
+}
