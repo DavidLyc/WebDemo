@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/0121510870318-梁宇成/square")
+@WebServlet("/square")
 public class SquareServlet extends HttpServlet {
 
     @Override
