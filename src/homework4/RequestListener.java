@@ -1,17 +1,18 @@
 package homework4;
 
-import javax.servlet.http.HttpSessionEvent;
-import javax.servlet.http.HttpSessionListener;
+import javax.servlet.ServletRequestEvent;
+import javax.servlet.ServletRequestListener;
 
-public class RequestListener implements HttpSessionListener {
+public class RequestListener implements ServletRequestListener {
 
     @Override
-    public void sessionCreated(HttpSessionEvent httpSessionEvent) {
-        System.out.println("请求对象创建");
+    public void requestDestroyed(ServletRequestEvent servletRequestEvent) {
+//        System.out.println("请求对象销毁！");
     }
 
     @Override
-    public void sessionDestroyed(HttpSessionEvent httpSessionEvent) {
-        System.out.println("请求对象销毁");
+    public void requestInitialized(ServletRequestEvent servletRequestEvent) {
+//        System.out.println("请求对象创建！");
     }
+
 }

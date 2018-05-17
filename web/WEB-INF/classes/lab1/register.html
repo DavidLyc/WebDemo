@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link type="text/css" rel="stylesheet" href="register-css.css">
+</head>
+<body>
+<form action="reg_check.jsp" method="post">
+    <table align="center" border="1" cellspacing="0">
+        <tr>
+            <th colspan="2" align="center">用户注册信息</th>
+        </tr>
+        <tr>
+            <td>用户名</td>
+            <td>
+                <input maxlength="16" type="text" title="name">
+            </td>
+        </tr>
+        <tr>
+            <td>密&nbsp;&nbsp;&nbsp;码</td>
+            <td>
+                <input maxlength="16" type="text" title="pwd">
+            </td>
+        </tr>
+        <tr>
+            <td>校验密码</td>
+            <td>
+                <input maxlength="16" type="text" title="confirm_pwd">
+            </td>
+        </tr>
+        <tr>
+            <td>籍&nbsp;&nbsp;&nbsp;贯</td>
+            <td>
+                <select title="origin">
+                    <option>浙江</option>
+                    <option>湖北</option>
+                    <option>四川</option>
+                    <option>广东</option>
+                </select>
+            </td>
+        </tr>
+        <tr aria-rowspan="2">
+            <td>兴趣爱好</td>
+            <td>
+                <input type="checkbox" title="basketball">篮球
+                <input type="checkbox" title="soccer">足球
+                <input type="checkbox" title="write">书法
+                <input type="checkbox" title="music">音乐
+                <br>
+                <input type="checkbox" title="draw">绘画
+                <input type="checkbox" title="fight">散打
+                <input type="checkbox" title="dance">瑜伽
+                <input type="checkbox" title="other">其他
+            </td>
+        </tr>
+        <tr>
+            <td>政治面貌</td>
+            <td>
+                <input name="pol" type="radio" title="party">党员
+                <input name="pol" type="radio" title="member">团员
+                <input name="pol" type="radio" title="normal">群众
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <div style="margin: 5px">
+                    <button type="submit">提&nbsp;&nbsp;交</button>
+                    <button type="reset" style="margin-left: 30px">重&nbsp;&nbsp;置</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <a href="salary.html">注册帮助信息请点击这里</a>
+            </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

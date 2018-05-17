@@ -8,5 +8,15 @@
         <listener-class>homework4.RequestListener</listener-class>
     </listener>
 
+    <servlet>
+        <servlet-name>bookQuery</servlet-name>
+        <servlet-class>lab3.BookQueryServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>bookQuery</servlet-name>
+        <url-pattern>/bookquery.do</url-pattern>
+    </servlet-mapping>
+
 </web-app>
 
